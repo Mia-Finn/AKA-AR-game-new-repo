@@ -29,7 +29,7 @@ public class trySliceClick : MonoBehaviour
     void OnMouseDrag()
     {
         //Read the mouse input axes
-        knifePosition.x += Input.GetAxis("Mouse X");
+        knifePosition.x += Input.GetAxis("Mouse X") - 0.2f;
        // knifePosition.y += Input.GetAxis("Mouse Y");
 
         //move the object to the world position to not change screen position
