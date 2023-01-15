@@ -29,7 +29,7 @@ public class trySliceClick : MonoBehaviour
     void OnMouseDrag()
     {
         //Read the mouse input axes
-        knifePosition.x += Input.GetAxis("Mouse X") - 0.2f;
+        knifePosition.x += Input.GetAxis("Mouse X"); // - 0.2f;
        // knifePosition.y += Input.GetAxis("Mouse Y");
 
         //move the object to the world position to not change screen position
@@ -37,3 +37,5 @@ public class trySliceClick : MonoBehaviour
     }
 
 }
+//Vector3(-0.970000029,0.449999988,-2.8599999)
+//Vector3(0.955015182,0.200000048,-2.86710644)

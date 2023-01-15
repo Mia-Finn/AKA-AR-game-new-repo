@@ -68,72 +68,16 @@ public class triggerHam : MonoBehaviour
 
             case levelStages.END:
 
-                cheeseSlice.SetActive(true);
+                knife4.SetActive(false);
                 camera1.SetActive(false);
                 camera2.SetActive(true);
 
-                /*
-                timer = Time.deltaTime;
-
-                if(timer > 5f)
-                {
-                    SceneManager.LoadScene(1);
-                }
-                */
+                cheese.SetActive(false);
+                cheeseSlice.SetActive(true);
+               // topBun2.SetActive(true);
 
                 break;
         }
     }
-
-
-    /*
-    private void Update()
-    {
-        switch (currentStage)
-        {
-            case levelStages.BREAD:
-
-                break;
-    }
-    */
-
-
-
-
-
-
-    /*
-    public GameObject trigger2, trigger3, lettuce, lettuceSlice, ham, hamSlice, knife, knifeOrigin;
-
-    private void Start()
-    {
-        lettuce.SetActive(true);
-       // knife.transform.position = knifeOrigin.transform.position;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        trigger2.SetActive(false);
-        trigger3.SetActive(true);
-       // lettuceSlice.SetActive(true);
-       // lettuce.SetActive(false);
-       // ham.SetActive(true);
-
-        // camera1.SetActive(false);
-        // camera2.SetActive(true);
-        // knife.SetActive(false);
-
-        /*
-        lettuce.SetActive(true);
-
-        if (lettuce.activeInHierarchy == true && lettuceSlice.activeInHierarchy == false)
-        {
-            lettuceSlice.SetActive(true);
-            ham.SetActive(true);
-        }
-        
-    }
-    */
-
 
 }
