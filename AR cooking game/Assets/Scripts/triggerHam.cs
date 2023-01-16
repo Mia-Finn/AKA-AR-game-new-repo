@@ -7,7 +7,7 @@ public class triggerHam : MonoBehaviour
 {
     public GameObject knife1, knife2, knife3, knife4, topBun, bottomBun, storeTopBun, storeBottomBun, camera1, camera2, lettuce, lettuceSlice, ham, hamSlice, cheese, cheeseSlice;
 
-    private float timer = 0f;
+    //private float timer = 0f;
 
     private enum levelStages
     {
