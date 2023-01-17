@@ -14,7 +14,7 @@ public class MoveCharacter : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _moveSpeed, _rigidbody.velocity.y); //, _joystick.Vertical * _moveSpeed);
+        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _moveSpeed, _rigidbody.velocity.y, _joystick.Vertical * _moveSpeed);
 
         /*
         if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)

@@ -2,20 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class foodCollected : MonoBehaviour
 {
-    public GameObject bowl, food;
+   // public GameObject bowl, food;
     public TMP_Text UIText;
     public string collectionCounter;
 
-    // Update is called once per frame
-    void Update()
+     private float ingredientsCollected = +1;
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (Vector3.Distance(bowl.transform.position, food.transform.position) < 1f)
+        //  Debug.Log("Working"); 
+
+         UIText.text = collectionCounter + ingredientsCollected ++ ;
+    }
+
+    private void FixedUpdate()
+    { 
+        if(ingredientsCollected >= 3)
         {
-            food.SetActive(false);
-            UIText.text = collectionCounter;
+            Debug.Log("Working");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

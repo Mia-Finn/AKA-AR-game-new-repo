@@ -62,6 +62,8 @@ public class triggerHam : MonoBehaviour
                 hamSlice.SetActive(true);
                 cheese.SetActive(true);
 
+                Debug.Log("Running Code");
+
                 currentStage = levelStages.END;
 
                 break;
