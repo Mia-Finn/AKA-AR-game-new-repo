@@ -9,6 +9,7 @@ public class randomSpawn : MonoBehaviour
     public GameObject lettuce;
     public GameObject ham;
     public GameObject cheese;
+   // public GameObject wrongIngredient;
 
     public List<GameObject> FOODLIST = new List<GameObject>();
 
@@ -32,9 +33,7 @@ public class randomSpawn : MonoBehaviour
     void Spawn()
     {
         Vector3 randomSpawnPosition = new Vector3(UnityEngine.Random.Range(-10, 21), 10, UnityEngine.Random.Range(-10, 21));
-        Instantiate(randomfood, randomSpawnPosition, Quaternion.identity);
-
-        
+        Instantiate(randomfood, randomSpawnPosition, Quaternion.identity);   
     }
 }
 
