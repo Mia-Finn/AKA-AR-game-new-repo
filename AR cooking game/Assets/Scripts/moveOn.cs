@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class moveOn : MonoBehaviour
 {
-  // public GameObject bun, cheese;
+    // public GameObject bun, cheese;
+
+   // private float timer = 0f;
 
     /*
     void Update()
@@ -23,9 +25,17 @@ public class moveOn : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-       // Debug.Log("Bun Placed!");
+        // Debug.Log("Bun Placed!");
+        /*
+        timer = Time.time;
 
-        SceneManager.LoadScene(2);
+        if(timer >= 5f)
+        {
+            SceneManager.LoadScene(5);
+        }
+        */
+
+        SceneManager.LoadScene(5);
     }
 
 }

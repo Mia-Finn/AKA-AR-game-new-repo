@@ -1129,7 +1129,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 423813254}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3083008718254457015, guid: 07a37a8ccf67eb645a2672f14e15693b, type: 3}
+    - {fileID: 3223809239718175478, guid: 07a37a8ccf67eb645a2672f14e15693b, type: 3}
+    - {fileID: 5728443711473090083, guid: 07a37a8ccf67eb645a2672f14e15693b, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 07a37a8ccf67eb645a2672f14e15693b, type: 3}
 --- !u!43 &203222198
@@ -2185,7 +2188,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-60914
+  m_Name: pb_Mesh-185694
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4058,7 +4061,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh50106
+  m_Name: pb_Mesh75982
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5960,7 +5963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1434315232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5981,7 +5984,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434315231}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6032,7 +6035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434315231}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0.637, z: 6.47}
+  m_LocalPosition: {x: 0.39, y: 0.637, z: 6.47}
   m_LocalScale: {x: 0.77367, y: 1, z: 3.1077}
   m_ConstrainProportionsScale: 0
   m_Children: []
