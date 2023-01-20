@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 3dc29e3e99b3d6f4bab7e2a966680bf7
-  - enabled: 1
     path: Assets/Scenes/amelia.unity
     guid: 56e8900f4adac9b4f8e24a6f1d6b285c
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3dc29e3e99b3d6f4bab7e2a966680bf7
   - enabled: 1
     path: Assets/Scenes/KornScene.unity
     guid: 274efb5b4680b9b4f9dec3b035724c80
