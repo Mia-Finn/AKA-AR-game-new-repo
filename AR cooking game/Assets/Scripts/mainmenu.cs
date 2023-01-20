@@ -17,6 +17,6 @@ public class mainmenu : MonoBehaviour
 
     public void ReplayGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
