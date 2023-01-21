@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 5445885544791399682}
   - component: {fileID: -3785474836939161721}
   - component: {fileID: 1793887764962132312}
+  - component: {fileID: 8837324343895508463}
   m_Layer: 0
   m_Name: bacon
   m_TagString: wrongItem
@@ -183,6 +184,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.31445757, y: 0.052960183, z: 0.7172288}
   m_Center: {x: -0.08355747, y: 0.011636231, z: 0.33811104}
+--- !u!114 &8837324343895508463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3575904955816702213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &3575904956145426241
 GameObject:
   m_ObjectHideFlags: 0

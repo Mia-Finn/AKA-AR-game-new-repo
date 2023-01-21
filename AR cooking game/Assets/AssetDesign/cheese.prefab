@@ -2409,6 +2409,7 @@ GameObject:
   - component: {fileID: 8718367563332733018}
   - component: {fileID: 4087203983364944667}
   - component: {fileID: 8368522561790491839}
+  - component: {fileID: 5471626528177982515}
   m_Layer: 0
   m_Name: cheese
   m_TagString: rightItem
@@ -2479,6 +2480,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.81357145, y: 0.41656756, z: 0.7778777}
   m_Center: {x: -0.5234506, y: 0.13948643, z: 0.0010842681}
+--- !u!114 &5471626528177982515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430340869854898381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 1, b: 0.00674963, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6430340870323919728
 GameObject:
   m_ObjectHideFlags: 0
@@ -9929,7 +9948,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 761
+  m_VersionIndex: 764
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
