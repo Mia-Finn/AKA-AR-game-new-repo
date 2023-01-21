@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class triggerHam : MonoBehaviour
 {
-    public GameObject knife1, knife2, knife3, knife4, topBun, bottomBun, storeTopBun, storeBottomBun, camera1, camera2, lettuce, lettuceSlice, ham, hamSlice, cheese, cheeseSlice;
+    public GameObject knife1, knife2, knife3, knife4, topBun, bottomBun, storeTopBun, storeBottomBun, camera1, camera2, ketchup, burger, burgerSlice, cheese, cheeseSlice;
 
     //private float timer = 0f;
 
@@ -34,7 +34,7 @@ public class triggerHam : MonoBehaviour
 
                 knife1.SetActive(false);
                 knife2.SetActive(true);
-                lettuce.SetActive(true);
+                cheese.SetActive(true);
 
                 currentStage = levelStages.HAM;
 
@@ -45,9 +45,9 @@ public class triggerHam : MonoBehaviour
                 knife2.SetActive(false);
                 knife3.SetActive(true);
 
-                lettuce.SetActive(false);
-                lettuceSlice.SetActive(true);
-                ham.SetActive(true);
+                cheese.SetActive(false);
+                ketchup.SetActive(true);
+                burger.SetActive(true);
 
                 currentStage = levelStages.CHEESE;
 
@@ -58,9 +58,9 @@ public class triggerHam : MonoBehaviour
                 knife3.SetActive(false);
                 knife4.SetActive(true);
 
-                ham.SetActive(false);
-                hamSlice.SetActive(true);
-                cheese.SetActive(true);
+                burger.SetActive(false);
+                burgerSlice.SetActive(true);
+               // lettuce.SetActive(true);
 
                 Debug.Log("Running Code");
 
@@ -74,7 +74,7 @@ public class triggerHam : MonoBehaviour
                 camera1.SetActive(false);
                 camera2.SetActive(true);
 
-                cheese.SetActive(false);
+              //  lettuce.SetActive(false);
                 cheeseSlice.SetActive(true);
                // topBun2.SetActive(true);
 

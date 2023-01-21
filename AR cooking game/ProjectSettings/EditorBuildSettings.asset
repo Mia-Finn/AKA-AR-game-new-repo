@@ -6,21 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/amelia.unity
-    guid: 56e8900f4adac9b4f8e24a6f1d6b285c
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 3dc29e3e99b3d6f4bab7e2a966680bf7
   - enabled: 1
-    path: Assets/Scenes/KornScene.unity
+    path: Assets/Scenes/Level 1 scenes/amelia.unity
+    guid: 56e8900f4adac9b4f8e24a6f1d6b285c
+  - enabled: 1
+    path: Assets/Scenes/Level 1 scenes/KornScene.unity
     guid: 274efb5b4680b9b4f9dec3b035724c80
   - enabled: 1
-    path: Assets/Scenes/slicingAttemptScene.unity
+    path: Assets/Scenes/Level 1 scenes/slicingAttemptScene.unity
     guid: 027f8a4c2053d7147b380fb4de631e5a
   - enabled: 1
     path: Assets/Scenes/TryAgainScene.unity
     guid: 87358f9f2b1aedc46853f4050bcbafaf
   - enabled: 1
-    path: Assets/Scenes/EndMenu.unity
+    path: Assets/Scenes/Level 1 scenes/EndMenu.unity
     guid: c6171ec39e4753844ad7ef84e1bae3b3
+  - enabled: 1
+    path: Assets/Scenes/Level 2 scenes/Level2SpawnerScene.unity
+    guid: 3ad5466cae3aedf4fa2844eddee538c1
+  - enabled: 1
+    path: Assets/Scenes/Level 2 scenes/Level2Slicing.unity
+    guid: 340eb0a8ae2ac7144a9e7ba58895ce16
+  - enabled: 1
+    path: Assets/Scenes/Level 2 scenes/moveToLevel3.unity
+    guid: ef193727f5614224bb79389f65e01f7e
+  - enabled: 1
+    path: Assets/Scenes/Level 3 scenes/Level3SpawnerScene.unity
+    guid: 214d00406fc877d4c88ade5a2bded1e7
+  - enabled: 1
+    path: Assets/Scenes/Level 3 scenes/Level3Slicing.unity
+    guid: c54351a7c73d2d24d95dd3c13d00f815
+  - enabled: 1
+    path: Assets/Scenes/Level 3 scenes/MoveToLevel4.unity
+    guid: 6ee9dfde8d8fdb649bef0620a855d52d
+  - enabled: 1
+    path: Assets/Scenes/Level 4 scenes/Level4SpawnerScene.unity
+    guid: 68b2fb9a5bc0f71409b1a5783a79afe4
+  - enabled: 1
+    path: Assets/Scenes/endScreenScene.unity
+    guid: b2517173abffaa9479c84f43f690f7d0
   m_configObjects: {}
