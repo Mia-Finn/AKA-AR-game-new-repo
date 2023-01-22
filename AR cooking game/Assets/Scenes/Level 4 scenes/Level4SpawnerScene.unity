@@ -16651,6 +16651,7 @@ GameObject:
   - component: {fileID: 711265456}
   - component: {fileID: 711265455}
   - component: {fileID: 711265454}
+  - component: {fileID: 711265457}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -16724,6 +16725,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711265457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711265453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8533f10fba1d3ee418b88c7e1ea54ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 208742616}
 --- !u!43 &723296739
 Mesh:
   m_ObjectHideFlags: 0
@@ -24814,7 +24828,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-161674
+  m_Name: pb_Mesh31360
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
