@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 1543139600}
   - component: {fileID: 1543139603}
   - component: {fileID: 1543139602}
-  - component: {fileID: 1543139601}
+  - component: {fileID: 1543139604}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -718,21 +718,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
---- !u!114 &1543139601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543139596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c998b3d5cc033214fbcdefec3c35ef14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 1543139603}
-  _joystick: {fileID: 2109691110}
-  _moveSpeed: 5
 --- !u!65 &1543139602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -762,6 +747,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!114 &1543139604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543139596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8533f10fba1d3ee418b88c7e1ea54ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1810157147}
 --- !u!1001 &1632244445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1140,11 +1138,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1810157143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8533f10fba1d3ee418b88c7e1ea54ef3, type: 3}
+  m_Script: {fileID: 11500000, guid: c998b3d5cc033214fbcdefec3c35ef14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1543139599}
-  offset: {x: 0, y: 0, z: -10}
+  _rigidbody: {fileID: 1810157149}
+  _joystick: {fileID: 2109691110}
+  _moveSpeed: 7
 --- !u!1 &2015573012
 GameObject:
   m_ObjectHideFlags: 0
