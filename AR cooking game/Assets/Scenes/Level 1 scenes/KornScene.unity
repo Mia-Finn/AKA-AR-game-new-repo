@@ -136,6 +136,9 @@ GameObject:
   - component: {fileID: 24615044}
   - component: {fileID: 24615047}
   - component: {fileID: 24615048}
+  - component: {fileID: 24615051}
+  - component: {fileID: 24615050}
+  - component: {fileID: 24615049}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -221,7 +224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8533f10fba1d3ee418b88c7e1ea54ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 593532607}
+  target: {fileID: 593532607}
+  offset: {x: 1, y: 3.64, z: -17.76}
 --- !u!114 &24615048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +286,50 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &24615049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24615043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c998b3d5cc033214fbcdefec3c35ef14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 24615051}
+  _joystick: {fileID: 659333355}
+  _moveSpeed: 7
+--- !u!65 &24615050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24615043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &24615051
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24615043}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!43 &94159285
 Mesh:
   m_ObjectHideFlags: 0
@@ -1562,7 +1610,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 437931998}
         m_TargetAssemblyTypeName: mainmenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: Level1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1865,6 +1913,7 @@ GameObject:
   - component: {fileID: 593532615}
   - component: {fileID: 593532614}
   - component: {fileID: 593532617}
+  - component: {fileID: 593532618}
   m_Layer: 0
   m_Name: Bowl
   m_TagString: Untagged
@@ -13561,7 +13610,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593532606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c998b3d5cc033214fbcdefec3c35ef14, type: 3}
   m_Name: 
@@ -13593,10 +13642,10 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &593532617
 MonoBehaviour:
@@ -13610,6 +13659,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a237ad3dbef16c48a1864aa5b1ec90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &593532618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593532606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8533f10fba1d3ee418b88c7e1ea54ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 24615046}
+  offset: {x: -1.5, y: -3, z: 20}
 --- !u!1 &613086497
 GameObject:
   m_ObjectHideFlags: 0
@@ -14828,7 +14891,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh40176
+  m_Name: pb_Mesh45698
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

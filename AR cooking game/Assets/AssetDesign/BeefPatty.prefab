@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3223809239718175478}
   - component: {fileID: 3083008718254457015}
   - component: {fileID: 5728443711473090083}
+  - component: {fileID: 1361395622361339968}
   m_Layer: 0
   m_Name: BeefPatty
   m_TagString: rightItem
@@ -77,6 +78,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0aa74a458c6c742b358d21afb356cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1361395622361339968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251820848042202413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 1, b: 0.04214716, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6251820849191447407
 GameObject:
   m_ObjectHideFlags: 0
