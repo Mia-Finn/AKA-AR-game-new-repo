@@ -11,4 +11,5 @@ public class cameraFollow : MonoBehaviour
     {
         transform.position = player.transform.position + new Vector3((float)1.2, 1, -15);
     }
+ 
 }

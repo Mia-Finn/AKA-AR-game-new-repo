@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 3dc29e3e99b3d6f4bab7e2a966680bf7
   - enabled: 1
-    path: Assets/Scenes/Level 1 scenes/amelia.unity
-    guid: 56e8900f4adac9b4f8e24a6f1d6b285c
-  - enabled: 1
     path: Assets/Scenes/Level 1 scenes/KornScene.unity
     guid: 274efb5b4680b9b4f9dec3b035724c80
+  - enabled: 1
+    path: Assets/Scenes/Level 1 scenes/amelia.unity
+    guid: 56e8900f4adac9b4f8e24a6f1d6b285c
   - enabled: 1
     path: Assets/Scenes/Level 1 scenes/slicingAttemptScene.unity
     guid: 027f8a4c2053d7147b380fb4de631e5a
@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/endScreenScene.unity
     guid: b2517173abffaa9479c84f43f690f7d0
+  - enabled: 0
+    path: Assets/Scenes/PrototypeScenes/joystickControlAttempt.unity
+    guid: 0154339fb470c8d45aa3b44edbc27b50
   m_configObjects: {}
