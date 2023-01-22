@@ -14223,7 +14223,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 376820932}
         m_TargetAssemblyTypeName: mainmenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: finish
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16896,7 +16896,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095020692}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8533f10fba1d3ee418b88c7e1ea54ef3, type: 3}
   m_Name: 
