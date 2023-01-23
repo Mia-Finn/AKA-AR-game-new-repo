@@ -7,6 +7,6 @@ public class MoveToEndOfGame : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(17);
     }
 }

@@ -7,6 +7,7 @@ public class MoveToLevel4 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(11);
+        //SceneManager.LoadScene(11);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

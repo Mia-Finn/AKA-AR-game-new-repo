@@ -3591,6 +3591,7 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls: []
+  score: {fileID: 0}
 --- !u!1 &367888844
 GameObject:
   m_ObjectHideFlags: 0
@@ -10011,7 +10012,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 831262074}
         m_TargetAssemblyTypeName: mainmenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: finish
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -381,7 +381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1829609319}
-  answer: {fileID: 1829609316}
 --- !u!4 &619269526
 Transform:
   m_ObjectHideFlags: 0
