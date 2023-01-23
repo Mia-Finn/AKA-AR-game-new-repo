@@ -4,18 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 
-public class ontapchange : MonoBehaviour
+public class ontapchange4 : MonoBehaviour
 {
     public UnityEvent action;
-    public GameObject score;
-    private TextMesh scoreText;
-
-    private void Start()
-    {
-        scoreText = score.GetComponent<TextMesh>();
-        PlayerPrefs.SetString("currentScore", "100");
-    }
-
 
     void Update()
     {
@@ -25,7 +16,6 @@ public class ontapchange : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                PlayerPrefs.SetString("currentScore", scoreText.text);
                 GameObject obj = hit.collider.gameObject;
                 SceneManager.LoadScene("KornScene");
 

@@ -3364,7 +3364,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4a04d1e0abf1b2d438c391cb24d65cc4, type: 2}
+  - {fileID: 2100000, guid: a33d1e7d83003354ba95385ff5184a66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3585,12 +3585,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 342308064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acb67a1e69fd2a841ad2a2fa4747d5ed, type: 3}
+  m_Script: {fileID: 11500000, guid: feb20d94b0b57f54ebd918e1caa5d4f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &367888844
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,7 +8420,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh41136
+  m_Name: pb_Mesh46172
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

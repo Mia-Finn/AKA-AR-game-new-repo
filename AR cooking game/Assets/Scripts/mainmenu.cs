@@ -27,21 +27,21 @@ public class mainmenu : MonoBehaviour
 
     public void Level1()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("amelia");
     }
 
     public void Level2()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene("recipetwo");
     }
 
     public void Level3()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene("recipethree");
     }
 
     public void Level4()
     {
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene("recipefour");
     }
 }

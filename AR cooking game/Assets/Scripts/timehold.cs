@@ -8,7 +8,7 @@ using TMPro;
 public class timehold : MonoBehaviour
 {
 
-    public float timer = 100;
+    public float timer = 100f;
     bool timingtime = false;
 
     [SerializeField] TMP_Text timerText;

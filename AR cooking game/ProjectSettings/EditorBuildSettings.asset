@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 scenes/EndMenu.unity
     guid: c6171ec39e4753844ad7ef84e1bae3b3
   - enabled: 1
+    path: Assets/Scenes/Level 2 scenes/recipetwo.unity
+    guid: a8fdfab59a2c63249acfd62f75ce2c3f
+  - enabled: 1
     path: Assets/Scenes/Level 2 scenes/Level2SpawnerScene.unity
     guid: 3ad5466cae3aedf4fa2844eddee538c1
   - enabled: 1
@@ -33,11 +36,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2 scenes/moveToLevel3.unity
     guid: ef193727f5614224bb79389f65e01f7e
   - enabled: 1
+    path: Assets/Scenes/Level 3 scenes/recipethree.unity
+    guid: f6a32addc441dc24ea86393086bb0b2f
+  - enabled: 1
     path: Assets/Scenes/Level 3 scenes/Level3SpawnerScene.unity
     guid: 214d00406fc877d4c88ade5a2bded1e7
   - enabled: 1
     path: Assets/Scenes/Level 3 scenes/Level3Slicing.unity
     guid: c54351a7c73d2d24d95dd3c13d00f815
+  - enabled: 1
+    path: Assets/Scenes/Level 4 scenes/recipefour.unity
+    guid: 0d0b3f64d396b9b4394014788b9a92bf
   - enabled: 1
     path: Assets/Scenes/Level 3 scenes/MoveToLevel4.unity
     guid: 6ee9dfde8d8fdb649bef0620a855d52d
