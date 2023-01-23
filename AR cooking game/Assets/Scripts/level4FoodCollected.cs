@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class level2FoodCollected : MonoBehaviour
+public class level4FoodCollected : MonoBehaviour
 {
     public int ingredients;
     public TMP_Text UIText;
@@ -17,7 +17,7 @@ public class level2FoodCollected : MonoBehaviour
 
         if (other.tag == "rightItem")
         {
-           //  Debug.Log("Right Ingredient");
+            // Debug.Log("Right Ingredient");
 
             ingredients = ingredients + 1;
             UIText.text = "Ingredients Collected : " + ingredients.ToString() + "/3";
@@ -32,10 +32,9 @@ public class level2FoodCollected : MonoBehaviour
         }
         else if (other.tag == "wrongItem")
         {
-             // Debug.Log("Wrong Ingredient");
+            //  Debug.Log("Wrong Ingredient");
 
-            SceneManager.LoadScene(19);
+            SceneManager.LoadScene(21);
         }
-
     }
 }

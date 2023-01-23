@@ -44,4 +44,24 @@ public class mainmenu : MonoBehaviour
     {
         SceneManager.LoadScene("recipefour");
     }
+
+    public void Try1()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Try2()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void Try3()
+    {
+        SceneManager.LoadScene(11);
+    }
+
+    public void Try4()
+    {
+        SceneManager.LoadScene(15);
+    }
 }

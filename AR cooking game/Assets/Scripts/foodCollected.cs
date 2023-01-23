@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class foodCollected : MonoBehaviour
 {
     // public GameObject bowl, food;
-    // public TMP_Text UIText;
+     public TMP_Text UIText;
     // public string collectionCounter;
 
     //  private float ingredientsCollected = +1;
@@ -25,6 +25,7 @@ public class foodCollected : MonoBehaviour
             // Debug.Log("Right Ingredient");
 
             ingredients = ingredients + 1;
+            UIText.text = "Ingredients Collected : " + ingredients.ToString() + "/3";
 
             if (ingredients == 3)
         {

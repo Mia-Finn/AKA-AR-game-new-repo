@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Level3FoodCollection : MonoBehaviour
 {
     public int ingredients;
+    public TMP_Text UIText;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -18,12 +20,13 @@ public class Level3FoodCollection : MonoBehaviour
             // Debug.Log("Right Ingredient");
 
             ingredients = ingredients + 1;
+            UIText.text = "Ingredients Collected : " + ingredients.ToString() + "/3";
 
             if (ingredients == 3)
             {
                 //  Debug.Log("Collection is working");
 
-                SceneManager.LoadScene(10);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
 
         }
@@ -31,7 +34,7 @@ public class Level3FoodCollection : MonoBehaviour
         {
             //  Debug.Log("Wrong Ingredient");
 
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(20);
         }
     }
 
