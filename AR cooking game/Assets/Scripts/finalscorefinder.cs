@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class finalscorefinder : MonoBehaviour
@@ -14,7 +15,7 @@ public class finalscorefinder : MonoBehaviour
     void Start()
     {
         float answer = GameObject.Find("TimerHolder").GetComponent<timehold>().timer;
-        timerText.text = answer.ToString();
+        timerText.text = "Score: " + answer.ToString();
     }
 
     // Update is called once per frame

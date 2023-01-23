@@ -20,7 +20,7 @@ public class timehold : MonoBehaviour
         timingtime = true;
         Scene scene = SceneManager.GetActiveScene();
 
-        if (scene.name == "endScreenScene")
+        if (scene.name == "EndMenu")
         {
             timingtime = false;
             
