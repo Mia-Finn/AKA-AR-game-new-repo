@@ -7,6 +7,15 @@ using UnityEngine.Events;
 public class ontapchange2 : MonoBehaviour
 {
     public UnityEvent action;
+    public GameObject score;
+    private TextMesh scoreText;
+
+    private void Start()
+    {
+        scoreText = score.GetComponent<TextMesh>();
+        PlayerPrefs.SetString("currentScore", "500");
+    }
+
 
     void Update()
     {
@@ -16,6 +25,7 @@ public class ontapchange2 : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
+                PlayerPrefs.SetString("currentScore", scoreText.text);
                 GameObject obj = hit.collider.gameObject;
                 SceneManager.LoadScene("Level2SpawnerScene");
 

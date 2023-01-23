@@ -13,7 +13,7 @@ public class ontapchange : MonoBehaviour
     private void Start()
     {
         scoreText = score.GetComponent<TextMesh>();
-        PlayerPrefs.SetString("currentScore", "100");
+        PlayerPrefs.SetString("currentScore", "500");
     }
 
 
