@@ -13716,7 +13716,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.604882, y: 1.7944465, z: 4.2450314}
+  m_Size: {x: 5.23, y: 1.7944465, z: 6.92}
   m_Center: {x: 1.1156878, y: 0.89722323, z: -1.0545521}
 --- !u!54 &593532616
 Rigidbody:
@@ -14951,7 +14951,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82370
+  m_Name: pb_Mesh28924
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -15766,7 +15766,7 @@ MonoBehaviour:
   - {fileID: 8320928741580468674, guid: e917a75e3d9b65441b525f0fc9b08e94, type: 3}
   - {fileID: 3575904955816702213, guid: 6ddad5f8cc45ae9468762a0a48b4210c, type: 3}
   - {fileID: 3575904955816702213, guid: 6ddad5f8cc45ae9468762a0a48b4210c, type: 3}
-  spawnRate: 7
+  spawnRate: 10
   cubePrefab: {fileID: 6687112161666135707, guid: a13ed633fba8ff648a97318d523202a4, type: 3}
 --- !u!1 &1831442378
 GameObject:
