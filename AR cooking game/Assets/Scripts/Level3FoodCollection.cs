@@ -20,9 +20,9 @@ public class Level3FoodCollection : MonoBehaviour
             // Debug.Log("Right Ingredient");
 
             ingredients = ingredients + 1;
-            UIText.text = "Ingredients Collected : " + ingredients.ToString() + "/3";
+            UIText.text = "Ingredients Collected : " + ingredients.ToString() + "/5";
 
-            if (ingredients == 3)
+            if (ingredients == 5)
             {
                 //  Debug.Log("Collection is working");
 

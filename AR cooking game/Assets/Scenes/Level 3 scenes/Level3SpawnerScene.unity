@@ -863,8 +863,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.9433668, y: 1.0022162, z: 2.7430305}
-  m_Center: {x: 1.1511306, y: 0.5011081, z: -1.0380751}
+  m_Size: {x: 4.604882, y: 1.7944465, z: 4.2450314}
+  m_Center: {x: 1.1156878, y: 0.89722323, z: -1.0545521}
 --- !u!54 &126121192
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12547,7 +12547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredients: 0
-  UIText: {fileID: 0}
+  UIText: {fileID: 2095394013}
 --- !u!1 &163912224
 GameObject:
   m_ObjectHideFlags: 0
@@ -13627,7 +13627,7 @@ MonoBehaviour:
   - {fileID: 3446709083903622989, guid: cad46515350a2b6469b4888772de6532, type: 3}
   - {fileID: 1556531691}
   - {fileID: 3575904955816702213, guid: 6ddad5f8cc45ae9468762a0a48b4210c, type: 3}
-  spawnRate: 3
+  spawnRate: 7
   cubePrefab: {fileID: 6687112161666135707, guid: a13ed633fba8ff648a97318d523202a4, type: 3}
 --- !u!4 &260346750
 Transform:
@@ -16388,7 +16388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collect three of the right ingredients to progress
+  m_text: Collect five of the right ingredients to progress
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18841,7 +18841,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh42368
+  m_Name: pb_Mesh86152
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
