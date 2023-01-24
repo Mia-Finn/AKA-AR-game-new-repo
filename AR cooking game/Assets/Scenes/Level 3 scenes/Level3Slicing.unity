@@ -8356,7 +8356,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh51078
+  m_Name: pb_Mesh49258
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -11318,8 +11318,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2913514, y: 0.31361678, z: 1.3385315}
-  m_Center: {x: 0.6456757, y: 0.15680833, z: -0.70370764}
+  m_Size: {x: 1.4636577, y: 0.31361678, z: 1.7466841}
+  m_Center: {x: 0.63484293, y: 0.15680833, z: -0.6564374}
 --- !u!54 &745796787
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14952,7 +14952,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh50762
+  m_Name: pb_Mesh48940
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

@@ -13716,8 +13716,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.23, y: 1.7944465, z: 6.92}
-  m_Center: {x: 1.1156878, y: 0.89722323, z: -1.0545521}
+  m_Size: {x: 9.951161, y: 2.373803, z: 9.102818}
+  m_Center: {x: 1.2633992, y: 1.1869015, z: -1.1559961}
 --- !u!54 &593532616
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14951,7 +14951,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28924
+  m_Name: pb_Mesh30210
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
